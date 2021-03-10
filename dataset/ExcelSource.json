@@ -1,0 +1,22 @@
+{
+	"name": "ExcelSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "pocexcelstorageaccount",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Example Charge data.xlsx",
+				"container": "test"
+			},
+			"sheetIndex": 0,
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
