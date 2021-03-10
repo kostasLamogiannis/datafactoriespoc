@@ -33,7 +33,10 @@
 					"type": "Expression"
 				}
 			},
-			"firstRowAsHeader": true
+			"firstRowAsHeader": {
+				"value": "@dataset().FirstRowAsHeader",
+				"type": "Expression"
+			}
 		},
 		"schema": []
 	},
