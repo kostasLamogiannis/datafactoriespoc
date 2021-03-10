@@ -7,10 +7,16 @@
 		},
 		"parameters": {
 			"FileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "Example Charge data.xlsx"
 			},
 			"Container": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "test"
+			},
+			"FirstRowAsHeader": {
+				"type": "bool",
+				"defaultValue": true
 			}
 		},
 		"annotations": [],
@@ -18,10 +24,15 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Example Charge data.xlsx",
-				"container": "test"
+				"fileName": {
+					"value": "@{dataset().FileName}",
+					"type": "Expression"
+				},
+				"container": {
+					"value": "@{dataset().Container}",
+					"type": "Expression"
+				}
 			},
-			"sheetIndex": 0,
 			"firstRowAsHeader": true
 		},
 		"schema": []
