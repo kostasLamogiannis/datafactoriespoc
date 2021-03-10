@@ -1,9 +1,9 @@
 {
-	"name": "pipeline1",
+	"name": "ConvertExcelToCSV",
 	"properties": {
 		"activities": [
 			{
-				"name": "ConvertExcelToCSV",
+				"name": "CopyExcelToCSV",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
