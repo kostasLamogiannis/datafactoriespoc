@@ -46,7 +46,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ExcelSource",
+						"referenceName": "ExcelSourceDataset",
 						"type": "DatasetReference",
 						"parameters": {
 							"FileName": "Example Charge data.xlsx",
