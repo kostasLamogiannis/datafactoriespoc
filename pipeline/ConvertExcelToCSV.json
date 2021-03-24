@@ -47,7 +47,12 @@
 				"inputs": [
 					{
 						"referenceName": "ExcelSource",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"FileName": "Example Charge data.xlsx",
+							"Container": "test",
+							"FirstRowAsHeader": true
+						}
 					}
 				],
 				"outputs": [
