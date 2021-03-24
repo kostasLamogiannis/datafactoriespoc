@@ -33,6 +33,7 @@
 					"type": "Expression"
 				}
 			},
+			"sheetIndex": 0,
 			"firstRowAsHeader": {
 				"value": "@dataset().FirstRowAsHeader",
 				"type": "Expression"
