@@ -2,7 +2,7 @@
 	"name": "ExcelSourceDataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "pocexcelstorageaccount",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
@@ -33,7 +33,6 @@
 					"type": "Expression"
 				}
 			},
-			"sheetIndex": 0,
 			"firstRowAsHeader": {
 				"value": "@dataset().FirstRowAsHeader",
 				"type": "Expression"

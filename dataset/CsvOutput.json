@@ -2,7 +2,7 @@
 	"name": "CsvOutput",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "pocexcelstorageaccount",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
