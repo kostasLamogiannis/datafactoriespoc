@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultLinkedServiceDev",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KV-Pass-Manager-Poc.vault.azure.net/"
+		}
+	}
+}
